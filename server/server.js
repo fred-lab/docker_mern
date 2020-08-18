@@ -44,7 +44,7 @@ app.get("/", (req, res) => {
     console.error(err);
   });
 })();
-console.log("hello");
+
 app.listen(APP_PORT, () => {
   // eslint-disable-next-line no-console
   console.log(`Nodejs server is running on port ${APP_PORT}`);
